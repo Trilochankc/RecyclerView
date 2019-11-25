@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
         recyclerView=findViewById(R.id.recyclerView);
 
         List<Contacts>contactsList=new ArrayList<>();
-        contactsList.add(new Contacts("Rajesh Hamal","9802365784",R.drawable.rajesh));
-        contactsList.add(new Contacts("Bhuwan KC","9845632147",R.drawable.bhuwan));
-        contactsList.add(new Contacts("Anmol KC","9874523621",R.drawable.anmol));
+        contactsList.add(new Contacts("Rajesh Hamal","9088977677",R.drawable.rajesh));
+        contactsList.add(new Contacts("Bhuwan KC","0998005645",R.drawable.bhuwan));
+        contactsList.add(new Contacts("Anmol KC","334933029939",R.drawable.anmol));
 
         ContactsAdapter contactsAdapter=new ContactsAdapter(this,contactsList);
         recyclerView.setAdapter(contactsAdapter);
